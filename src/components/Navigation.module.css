@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.Navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: rgb(95, 104, 223);
+    height: 67;
+    padding: 0 1.1rem;
+    padding-bottom: 5px;
+}
+
+.navigationButton {
+    padding: 10px;
+    background-color: white;
+    margin: 1rem;
+    font-size: 15px;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+
+}
