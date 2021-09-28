@@ -1,20 +1,25 @@
 import React from "react";
 import Navigation from "./Navigation";
+import home from "./home.png";
 
 function Homepage() {
     return(
         <>
             <Navigation/>
-            <div style={{
-                color: "black",
-                fontSize: "40px",
-                backgroundColor: "rgb(163, 158, 245)",
-                paddingBottom: "4%",
+            <div  style={{
+                color: "white",
+                fontSize: "45px",
+                paddingBottom: "40%",
                 lineHeight: "486px",
                 textAlign: "center",
-                
-            }
+                backgroundImage: `url(${home})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                width: '98.78vw',
+                height: '4vh',
+                }
             }>Welcome to the Home Page</div>
+            
         </>
     );
 }
